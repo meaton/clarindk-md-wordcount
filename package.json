@@ -1,0 +1,22 @@
+{
+  "name": "count-script",
+  "version": "1.0.0",
+  "description": "Aggregate word count and interaction role results in a TEI metadata collection.",
+  "main": "count.js",
+  "dependencies": {
+    "libxmljs": "~0.18.0",
+    "mongoose": "~3.8.15",
+    "minimist": "~1.1.0",
+    "xml2json": "~0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node count.js"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/meaton/count-script.git"
+  },
+  "author": "Mitchell Seaton",
+  "license": "MIT"
+}
